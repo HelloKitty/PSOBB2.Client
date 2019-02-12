@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterSelection.unity
     guid: fb17005eb5670824d90be085c4fa6600
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SelectCharacterBeforeShip.unity
     guid: e770449ccb37da84998e2b4c73886d54
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ServerSelection.unity
     guid: 2eb6513dccb818447a33635d531f0d8d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PreBlockBurstScene.unity
     guid: acdd53df2d8c41643bd339ab0733272e
   - enabled: 1
