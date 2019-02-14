@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainPlayerHubAltas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 9443a26e30efc854c98b5d639aca053a, type: 3}
+    - {fileID: 21300000, guid: 5ca6660f4f522584486a2f25ab821203, type: 3}
+    - {fileID: 21300000, guid: 5cd4ccf967fc83d41a87ae3d03fe5bf6, type: 3}
+    - {fileID: 21300000, guid: e0eb81d4a2788e1469c86f6a32e79328, type: 3}
+    - {fileID: 21300000, guid: 2d07175b791ed8745a86ffb9486a90e4, type: 3}
+    - {fileID: 21300000, guid: 47a99aca87bdb5f4ea5fc0e8fe229c66, type: 3}
+    - {fileID: 21300000, guid: 77ea60fc2717ea14195e0ff2b7927137, type: 3}
+    - {fileID: 21300000, guid: ad4a2869eb6e002408484dbef6f60dcd, type: 3}
+    totalSpriteSurfaceArea: 889424
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e0eb81d4a2788e1469c86f6a32e79328, type: 3}
+  - {fileID: 21300000, guid: ad4a2869eb6e002408484dbef6f60dcd, type: 3}
+  - {fileID: 21300000, guid: 5cd4ccf967fc83d41a87ae3d03fe5bf6, type: 3}
+  - {fileID: 21300000, guid: 47a99aca87bdb5f4ea5fc0e8fe229c66, type: 3}
+  - {fileID: 21300000, guid: 2d07175b791ed8745a86ffb9486a90e4, type: 3}
+  - {fileID: 21300000, guid: 77ea60fc2717ea14195e0ff2b7927137, type: 3}
+  - {fileID: 21300000, guid: 9443a26e30efc854c98b5d639aca053a, type: 3}
+  - {fileID: 21300000, guid: 5ca6660f4f522584486a2f25ab821203, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - other_player_unitframe_2_withmiddle 1
+  - other_player_unitframe_photoncircle
+  - main_player_tab_removed_bars
+  - main_player_photon_bar
+  - other_player_unitframe_background_bars2
+  - main_player_photon_bar_background
+  - fill_bar_01_no_rounding_128x32
+  - main_player_bars_background
+  m_Tag: MainPlayerHubAltas
+  m_IsVariant: 0
