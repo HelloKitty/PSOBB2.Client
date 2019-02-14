@@ -6629,7 +6629,6 @@ GameObject:
   - component: {fileID: 855699884}
   - component: {fileID: 855699885}
   - component: {fileID: 855699886}
-  - component: {fileID: 855699887}
   m_Layer: 0
   m_Name: '[Sceneject]'
   m_TagString: Untagged
@@ -6671,7 +6670,6 @@ MonoBehaviour:
   m_Script: {fileID: -1933110458, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ServiceDiscoveryUrl: http://192.168.0.3:5000
 --- !u!114 &855699886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6685,18 +6683,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneType: 0
---- !u!114 &855699887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855699883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 152948856, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &855699888
 MonoBehaviour:
   m_ObjectHideFlags: 0

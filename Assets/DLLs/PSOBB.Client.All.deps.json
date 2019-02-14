@@ -1156,8 +1156,7 @@
           "FluentValidation": "7.6.103",
           "Refit": "4.6.58",
           "SceneJect.Metadata": "3.0.31",
-          "System.ComponentModel.Annotations": "4.5.0",
-          "UnityEngine": "0.0.0.0"
+          "System.ComponentModel.Annotations": "4.5.0"
         },
         "runtime": {
           "PSOBB.Client.Common.dll": {}
@@ -1201,9 +1200,9 @@
           "SceneJect.Metadata": "3.0.31",
           "System.Collections.Immutable": "1.5.0",
           "Unitysync.Async": "1.0.15",
-          "Sirenix.Serialization": "2.0.5.0",
           "Sirenix.OdinInspector.Attributes": "2.0.5.0",
-          "UnityEngine.UI": "1.0.0.0"
+          "UnityEngine.UI": "1.0.0.0",
+          "Sirenix.Serialization": "2.0.5.0"
         },
         "runtime": {
           "PSOBB.Client.Game.dll": {}
@@ -1322,7 +1321,8 @@
         "dependencies": {
           "PSOBB.Models.Common": "1.0.0",
           "PSOBB.Network.Common": "1.0.0",
-          "protobuf-net": "2.3.7"
+          "protobuf-net": "2.3.7",
+          "UnityEngine": "0.0.0.0"
         },
         "runtime": {
           "PSOBB.Payloads.ZoneServer.dll": {}
@@ -1357,14 +1357,6 @@
           "PSOBB.ZoneServer.Common.dll": {}
         }
       },
-      "Sirenix.Serialization.Reference/2.0.5.0": {
-        "runtime": {
-          "Sirenix.Serialization.dll": {
-            "assemblyVersion": "2.0.5.0",
-            "fileVersion": "2.0.5.0"
-          }
-        }
-      },
       "UnityEngine.Reference/0.0.0.0": {
         "runtime": {
           "UnityEngine.dll": {
@@ -1386,6 +1378,14 @@
           "UnityEngine.UI.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sirenix.Serialization.Reference/2.0.5.0": {
+        "runtime": {
+          "Sirenix.Serialization.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
           }
         }
       }
@@ -2171,11 +2171,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Sirenix.Serialization.Reference/2.0.5.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "UnityEngine.Reference/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -2187,6 +2182,11 @@
       "sha512": ""
     },
     "UnityEngine.UI.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sirenix.Serialization.Reference/2.0.5.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
