@@ -700,6 +700,7 @@ GameObject:
   - component: {fileID: 2520027003610907214}
   - component: {fileID: 8103647475881389423}
   - component: {fileID: 6626005665769812967}
+  - component: {fileID: 5151658827089361252}
   m_Layer: 5
   m_Name: Main_Player_Name
   m_TagString: Untagged
@@ -767,7 +768,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Glader
+  m_Text: Unknown
 --- !u!114 &6626005665769812967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,6 +784,29 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &5151658827089361252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2520027003610907213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1642305556, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _RegisterationKey: 1
+  _UnityUIObject: {fileID: 8103647475881389423}
 --- !u!1 &2520027003848059489
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +969,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2520027003963219846}
+  - component: {fileID: 9163642559622169915}
   m_Layer: 5
   m_Name: MainPlayerUnitFrame_Root
   m_TagString: Untagged
@@ -988,6 +1013,34 @@ RectTransform:
   m_AnchoredPosition: {x: 130, y: -50}
   m_SizeDelta: {x: 256, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9163642559622169915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2520027003963219847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1333844119, guid: 288e20ad89561b84cb51a9984d6dd2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _RegisterationKey: 1
+  HealthText: {fileID: 2520027002907787379}
+  HealthBarImage: {fileID: 2520027004482218982}
+  TechniquePointsText: {fileID: 2520027002556164415}
+  TechniquePointsBarImage: {fileID: 2520027002660522825}
+  PlayerNameText: {fileID: 8103647475881389423}
+  UnitLevelText: {fileID: 2520027004294716716}
 --- !u!1 &2520027004160216578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,7 +1132,7 @@ GameObject:
   - component: {fileID: 2520027004294716719}
   - component: {fileID: 2520027004294716716}
   m_Layer: 5
-  m_Name: Main_Level_Label
+  m_Name: Main_Level_Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

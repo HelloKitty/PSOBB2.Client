@@ -1156,7 +1156,8 @@
           "FluentValidation": "7.6.103",
           "Refit": "4.6.58",
           "SceneJect.Metadata": "3.0.31",
-          "System.ComponentModel.Annotations": "4.5.0"
+          "System.ComponentModel.Annotations": "4.5.0",
+          "UnityEngine": "0.0.0.0"
         },
         "runtime": {
           "PSOBB.Client.Common.dll": {}
@@ -1321,8 +1322,7 @@
         "dependencies": {
           "PSOBB.Models.Common": "1.0.0",
           "PSOBB.Network.Common": "1.0.0",
-          "protobuf-net": "2.3.7",
-          "UnityEngine": "0.0.0.0"
+          "protobuf-net": "2.3.7"
         },
         "runtime": {
           "PSOBB.Payloads.ZoneServer.dll": {}
