@@ -5,28 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MainTitleScreen_v2.unity
+  - enabled: 0
+    path: 
     guid: 837725bc30a62144a97aa1df923c0f29
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CharacterSelection.unity
     guid: fb17005eb5670824d90be085c4fa6600
-  - enabled: 0
-    path: Assets/Scenes/ServerSelection.unity
-    guid: 2eb6513dccb818447a33635d531f0d8d
+  - enabled: 1
+    path: Assets/Scenes/MainTitleScreen_v5.unity
+    guid: 370fc4f4193ed2f4fb705ffa56967184
   - enabled: 1
     path: Assets/Scenes/PreLobbyLoadScreen.unity
     guid: d6701433430349d40b4d407ade3f669f
+  - enabled: 0
+    path: Assets/Scenes/InstanceServerScene.unity
+    guid: 104b7b827a8e82b44a7fea074dcdeafa
+  - enabled: 0
+    path: Assets/Scenes/CharacterCreation.unity
+    guid: ca6fad5a056365c45a6eead939eb26ff
+  - enabled: 0
+    path: Assets/Scenes/VRAvatarTestScene.unity
+    guid: 735f74722c7020646bd1f440d44ea838
   - enabled: 1
-    path: Assets/Scenes/Lobby/Lobby01.unity
-    guid: dc926af6aaa3c034abf9cc5c4be34655
-  - enabled: 0
-    path: Assets/Scenes/Lobby/LobbySoccer01.unity
-    guid: 801c39ef098263d45bb5a3c09c328ea0
-  - enabled: 0
-    path: Assets/Scenes/GameLevels/Pioneer2_00.unity
-    guid: 4306728dce69b1147b23532c581f2795
-  - enabled: 0
-    path: Assets/Scenes/GameLevels/Forest01/forest_test.unity
-    guid: db2a5cb8cc74bc8499da03f0a01700bd
+    path: Assets/Scenes/CharacterSelection_v2.unity
+    guid: 1101fedc9be5e6545bc72b03822633ef
+  - enabled: 1
+    path: Assets/Scenes/CharacterCreation_v2.unity
+    guid: 56e1eefe947865c47993377d1baac973
+  - enabled: 1
+    path: Assets/Scenes/InstanceServerScene_v2.unity
+    guid: e9ee477502bd47542a68a4a0f73b4cde
+  - enabled: 1
+    path: Assets/Scenes/SharedScene.unity
+    guid: 56f31c58ea3d0d9468ff533bce40446e
   m_configObjects: {}

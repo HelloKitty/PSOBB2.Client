@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ed31e0a3f5eda41a440e307d1d743e, type: 3}
+  m_Name: TooltipManager
+  m_EditorClassIdentifier: 
+  m_TooltipPrefab: {fileID: 1109163212986180, guid: 7ef36c91306020649b111224eee98da5,
+    type: 3}
+  m_SpacerHeight: 10
+  m_ItemTooltipWidth: 515
+  m_SpellTooltipWidth: 651
+  m_DefaultLineStyle:
+    Name: 
+    TextFont: {fileID: 12800000, guid: d6014c744b58ef646be61358b725885d, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 28
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.47843137, g: 0.45882353, b: 0.42352942, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.23137255}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 0
+  m_TitleLineStyle:
+    Name: 
+    TextFont: {fileID: 12800000, guid: d6014c744b58ef646be61358b725885d, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 32
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.8, g: 0.7372549, b: 0.6666667, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.25}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 0
+  m_DescriptionLineStyle:
+    Name: 
+    TextFont: {fileID: 12800000, guid: d6014c744b58ef646be61358b725885d, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 30
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.44705883, g: 0.4117647, b: 0.3647059, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.25}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 0
+  m_CustomStyles:
+  - Name: ItemAttribute
+    TextFont: {fileID: 12800000, guid: 28db0a71cf510d64ab628e93f1f95c1b, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 26
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.5137255, g: 0.4862745, b: 0.44313726, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.25}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: ItemStat
+    TextFont: {fileID: 12800000, guid: 28db0a71cf510d64ab628e93f1f95c1b, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 26
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.23529412, g: 0.5254902, b: 0.1764706, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.24705882}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: ItemDescription
+    TextFont: {fileID: 12800000, guid: 28db0a71cf510d64ab628e93f1f95c1b, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 26
+    TextFontLineSpacing: 0.9
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.48235294, g: 0.37254903, b: 0.24313726, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.24705882}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: LobbyTitle
+    TextFont: {fileID: 12800000, guid: 7dea48766ad12b548a58b7b4c650bf62, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 30
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 2
+    TextFontColor: {r: 0.7764706, g: 0.73333335, b: 0.6745098, a: 1}
+    TextEffects:
+    - Effect: 1
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.1}
+      EffectDistance: {x: 1, y: -1}
+      UseGraphicAlpha: 1
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.34901962}
+      EffectDistance: {x: 0, y: -2}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: HeroSelectName
+    TextFont: {fileID: 12800000, guid: 7dea48766ad12b548a58b7b4c650bf62, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 30
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.7764706, g: 0.73333335, b: 0.6745098, a: 1}
+    TextEffects:
+    - Effect: 1
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.1}
+      EffectDistance: {x: 1, y: -1}
+      UseGraphicAlpha: 1
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.34901962}
+      EffectDistance: {x: 0, y: -2}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: HeroSelectRole
+    TextFont: {fileID: 12800000, guid: 7dea48766ad12b548a58b7b4c650bf62, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 26
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.49411765, g: 0.4627451, b: 0.41960785, a: 1}
+    TextEffects:
+    - Effect: 1
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.1}
+      EffectDistance: {x: 1, y: -1}
+      UseGraphicAlpha: 1
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.34901962}
+      EffectDistance: {x: 0, y: -2}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: HeroSelectDescription
+    TextFont: {fileID: 12800000, guid: 7dea48766ad12b548a58b7b4c650bf62, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 26
+    TextFontLineSpacing: 0.9
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.61960787, g: 0.56078434, b: 0.48235294, a: 1}
+    TextEffects:
+    - Effect: 1
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.1}
+      EffectDistance: {x: 1, y: -1}
+      UseGraphicAlpha: 1
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.34901962}
+      EffectDistance: {x: 0, y: -2}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: SpellTitle
+    TextFont: {fileID: 12800000, guid: d6014c744b58ef646be61358b725885d, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 32
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.8, g: 0.7372549, b: 0.6666667, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.25}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: SpellAttribute
+    TextFont: {fileID: 12800000, guid: 28db0a71cf510d64ab628e93f1f95c1b, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 28
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.47843137, g: 0.45882353, b: 0.42352942, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.25}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 1
+  - Name: SpellDescription
+    TextFont: {fileID: 12800000, guid: d6014c744b58ef646be61358b725885d, type: 3}
+    TextFontStyle: 0
+    TextFontSize: 30
+    TextFontLineSpacing: 1
+    OverrideTextAlignment: 0
+    TextFontColor: {r: 0.44705883, g: 0.4117647, b: 0.3647059, a: 1}
+    TextEffects:
+    - Effect: 0
+      EffectColor: {r: 0, g: 0, b: 0, a: 0.25}
+      EffectDistance: {x: 0, y: -1}
+      UseGraphicAlpha: 1
+    DisplayName: 1

@@ -11,7 +11,7 @@
 		
 		CGPROGRAM
 		// Physically based Standard lighting model, and enable shadows on all light types
-		#pragma surface surf Lambert noshadow noambient nolightmap novertexlights nodynlightmap nodirlightmap nofog nometa noforwardadd nolppv noshadowmask
+		#pragma surface surf NoLighting noshadow noambient nolightmap novertexlights nodynlightmap nodirlightmap nofog nometa noforwardadd nolppv noshadowmask
 
 		// Use shader model 3.0 target, to get nicer looking lighting
 		#pragma target 2.0
@@ -24,6 +24,14 @@
 		struct Input {
 			float2 uv_MainTex;
 		};
+		
+		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, fixed atten)
+		{
+			fixed4 c;
+			c.rgb = s.Albedo;
+			c.a = s.Alpha;
+			return c;
+		}
 
 		void surf (Input IN, inout SurfaceOutput o) 
 		{

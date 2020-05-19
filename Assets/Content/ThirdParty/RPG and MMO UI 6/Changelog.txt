@@ -1,0 +1,24 @@
+Version 1.6:
+- Supressing warnings on Unity 2019.
+
+Version 1.5:
+- Update for Unity 2019.
+
+Version 1.4:
+- Updated scripts.
+- Added documentation.
+- Added mobile elements.
+
+Version 1.3:
+- Changed undefined input error into warrning.
+- Added Select Field scrolling.
+
+Version 1.2:
+- Improved UIUtility Bring To Front method.
+
+Version 1.1:
+- Implemented interfaces for spell slot and item slot.
+- Transition components now take into account canvas groups interactable parameter.
+
+Version 1.0:
+- Initial release.

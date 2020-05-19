@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6694320caa0568e4fb296afa762666e1, type: 3}
+  m_Name: SpellDatabase
+  m_EditorClassIdentifier: 
+  spells:
+  - ID: 1
+    Name: Fireball
+    Icon: {fileID: 21300000, guid: b8f0818508c32a44d829460c6eaf7777, type: 3}
+    Description: Quisque vehicula et dui at volutpat. Quisque convallis porta bibendum.
+      Duis imperdiet mi vitae dapibus euismod.
+    Range: 1
+    Cooldown: 3
+    CastTime: 1
+    PowerCost: 1
+    Flags: 4
+  - ID: 2
+    Name: Death Kiss
+    Icon: {fileID: 21300000, guid: 241de5aedb1007c4c83ee1d38133dea3, type: 3}
+    Description: Quisque vehicula et dui at volutpat. Quisque convallis porta bibendum.
+      Duis imperdiet mi vitae dapibus euismod.
+    Range: 40
+    Cooldown: 30
+    CastTime: 0
+    PowerCost: 10
+    Flags: 6
+  - ID: 3
+    Name: Healing Leafs
+    Icon: {fileID: 21300000, guid: 735deb1d753f1b340833443686deb837, type: 3}
+    Description: Quisque vehicula et dui at volutpat. Quisque convallis porta bibendum.
+      Duis imperdiet mi vitae dapibus euismod.
+    Range: 0
+    Cooldown: 120
+    CastTime: 3
+    PowerCost: 1000
+    Flags: 0
+  - ID: 4
+    Name: Pyroblast
+    Icon: {fileID: 21300000, guid: ce01a41d7f5c4cd418c9868e474ae218, type: 3}
+    Description: Quisque vehicula et dui at volutpat. Quisque convallis porta bibendum.
+      Duis imperdiet mi vitae dapibus euismod.
+    Range: 40
+    Cooldown: 60
+    CastTime: 4
+    PowerCost: 2500
+    Flags: 0
+  - ID: 5
+    Name: Sun Radiation
+    Icon: {fileID: 21300000, guid: 5b66a1912c5e76340bc3259a01a39861, type: 3}
+    Description: Quisque vehicula et dui at volutpat. Quisque convallis porta bibendum.
+      Duis imperdiet mi vitae dapibus euismod.
+    Range: 25
+    Cooldown: 120
+    CastTime: 0
+    PowerCost: 5
+    Flags: 6
+  - ID: 6
+    Name: Intelligence
+    Icon: {fileID: 21300000, guid: ddd5aba7cd6b3fd46b303a5011af0f55, type: 3}
+    Description: Quisque vehicula et dui at volutpat. Quisque convallis porta bibendum.
+      Duis imperdiet mi vitae dapibus euismod.
+    Range: 0
+    Cooldown: 0
+    CastTime: 0
+    PowerCost: 0
+    Flags: 1
