@@ -1,6 +1,6 @@
-# PSOBB2.Library
+# PSOBB2.Client
 
-In development recreation of Phantasy Star Online: Blue Burst. Called PSOBB2. http://www.psobb2.com
+In development reimagining of Phantasy Star Online: Blue Burst. Called PSOBB2. http://www.psobb2.com
 
 # Requirements
 
